@@ -13,11 +13,11 @@ import os, time
 # pyglet.lib.load_library('avbin')
 # pyglet.have_avbin=True
 
-# project: :. Project: Voice based Email for blind :.
-# Author: Sayak Naskar
+# project: :. Project: Voice Email for blind :.
+# Author: Sandeep Potdukhe
 
 # fetch project name
-tts = gTTS(text="Project: Voice based Email for blind", lang='en')
+tts = gTTS(text="Project: Voice Email for blind", lang='en')
 ttsname = (
     "name.mp3")  # Example: path -> C:\Users\Sandeep\Desktop> just change with your desktop directory. Don't use my directory.
 tts.save(ttsname)
